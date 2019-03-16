@@ -5,10 +5,6 @@ import BurgerControls from './../../components/Burger/BuildControls/BuildControl
 import ProductsPrices from './../../data/ProductsPrices'
 
 class BurgerBuilder extends Component {
-    // constructor (props) {
-    //     super(props);
-    //     this.state = {}
-    // }
     state = {
         ingredients: {
             salad: 0,
